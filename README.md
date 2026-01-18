@@ -2,12 +2,12 @@
 - Smart Navigation, bir robotun farklı trafik yoğunlukları ve engeller altında en verimli yolu bulmasını sağlayan bir simülasyon projesidir. <br>
 - Proje, en kısa yol algoritmalarının (Dijkstra, Bellman-Ford) ve arama algoritmalarının (BFS, DFS) davranışlarını karşılaştırmalı olarak sunar. <br>
 
-🛠️ <h2> Kullanılan Teknolojiler </h2>
+<h2> 🛠️ Kullanılan Teknolojiler </h2>
 <br> Python: Algoritma mantığı ve uygulama geliştirme.
 <br> Numpy: Her çalıştırmada rastgele trafik yoğunluğu ve engel oluşturma (Objektif simülasyon).
 <br> Matplotlib: Algoritmaların harita üzerindeki hareketlerinin görselleştirilmesi.
 
-🛣️ <h2> Algoritmalar ve Yaklaşımlar </h2>
+<h2>🛣️ Algoritmalar ve Yaklaşımlar </h2>
 1) Ağırlıklı (Maliyet Odaklı) Algoritmalar
 Trafik yoğunluğuna göre "en ucuz" yolu hesaplarlar.
 - <h4> Dijkstra: </h4> En düşük maliyetli rotayı garanti eder.
