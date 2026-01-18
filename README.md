@@ -1,6 +1,6 @@
 # Smart Navigation: Yol Planlama Simülatörü
--Smart Navigation, bir robotun farklı trafik yoğunlukları ve engeller altında en verimli yolu bulmasını sağlayan bir simülasyon projesidir. 
--Proje, en kısa yol algoritmalarının (Dijkstra, Bellman-Ford) ve arama algoritmalarının (BFS, DFS) davranışlarını karşılaştırmalı olarak sunar.
+-Smart Navigation, bir robotun farklı trafik yoğunlukları ve engeller altında en verimli yolu bulmasını sağlayan bir simülasyon projesidir. <br>
+-Proje, en kısa yol algoritmalarının (Dijkstra, Bellman-Ford) ve arama algoritmalarının (BFS, DFS) davranışlarını karşılaştırmalı olarak sunar. <br>
 
 🛠️ Kullanılan Teknolojiler
 <br>Python: Algoritma mantığı ve uygulama geliştirme.
