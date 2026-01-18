@@ -20,7 +20,6 @@ Trafik yoğunluğuna göre "en ucuz" yolu hesaplarlar.
 > **Teknik Detay:** Algoritma negatif döngüleri tespit eder; ancak simülasyonun sürekliliği için bu ağırlıklar bilinçli olarak **0'a** limitlenmiştir (clamping).
 
 
-
 ### 2️⃣ Ağırlıksız (Adım Odaklı) Algoritmalar
 Yolların maliyeti (trafik) yoksa, hedefe en az adımda ulaşmayı hedeflerler.
 
@@ -60,12 +59,13 @@ Yolların maliyeti (trafik) yoksa, hedefe en az adımda ulaşmayı hedeflerler.
 
 
 ### 🟩 Breadth First Search (BFS)
+<hr>
 *Arama stratejilerinin (katman katman vs. derinlemesine) harita üzerindeki tarama farkları.*
 > ### 🎨 Simülasyon Renk Anahtarı
 > * **Başlangıç & Hedef:** 🟢 Başlangıç | 🔴 Hedef
 > * **Engeller:** ⬛ Siyah Kareler (Geçilemez Alanlar)
-> * **Robotun İzleri:** 🌐 Açık Mavi (Algoritmanın belirlediği ve robotun geçtiği ana rota)
-> * **Aktif Arama:** 🔵 Koyu Mavi (Algoritmanın anlık olarak taradığı/incelediği alanlar)
+> * **Robotun İzleri:** 🌐 Açık Mavi (Algoritmanın belirlediği ve robotun geçerken bıraktığı iz)
+> * **Aktif Arama:** 🔵 Koyu Mavi (Robotun Anlık Yeri)
 > * **Tarama Geçmişi:** ⚪ Açık Gri (Algoritmanın ziyaret ettiği ancak rotaya seçmediği noktalar)
 
 **Hedef Arama Süreci:** 
@@ -77,6 +77,18 @@ Yolların maliyeti (trafik) yoksa, hedefe en az adımda ulaşmayı hedeflerler.
 <img src="https://github.com/user-attachments/assets/64f01eb7-b12b-4ff2-84f0-6f00ea65dc11" width="600"> 
 
 ### 🟩 Depth First Search (DFS)
+<hr>
 
-<img src="https://github.com/user-attachments/assets/80bb056b-de3c-4dd0-bf25-c32d8bcecc78" width="49%" height="600" /> <img src="https://github.com/user-attachments/assets/f794d5c1-793a-4c26-b61c-f6c1e1f2ac76" width="49%" height="600" />
+<img src="https://github.com/user-attachments/assets/7d150a51-b5c8-4520-b1ea-6f91a19877ca" width="49%" height="600" /> <img src="https://github.com/user-attachments/assets/49e273dc-b31c-4179-afa9-bd89a7f2b9e5" width="49%" height="600" />
+
+
+
+
+
+
+
+
+
+
+
 
