@@ -61,12 +61,12 @@ Yolların maliyeti (trafik) yoksa, hedefe en az adımda ulaşmayı hedeflerler.
 ### 🟩 Breadth First Search (BFS)
 <hr>
 *Arama stratejilerinin (katman katman vs. derinlemesine) harita üzerindeki tarama farkları.*
-> ### 🎨 Simülasyon Renk Anahtarı
-> * **Başlangıç & Hedef:** 🟢 Başlangıç | 🔴 Hedef
-> * **Engeller:** ⬛ Siyah Kareler (Geçilemez Alanlar)
-> * **Robotun İzleri:** 🌐 Açık Mavi (Algoritmanın belirlediği ve robotun geçerken bıraktığı iz)
-> * **Aktif Arama:** 🔵 Koyu Mavi (Robotun Anlık Yeri)
-> * **Tarama Geçmişi:** ⚪ Açık Gri (Algoritmanın ziyaret ettiği ancak rotaya seçmediği noktalar)
+### 🎨 Simülasyon Renk Anahtarı
+* **Başlangıç & Hedef:** 🟢 Başlangıç | 🔴 Hedef
+* **Engeller:** ⬛ Siyah Kareler (Geçilemez Alanlar)
+* **Robotun İzleri:** 🌐 Açık Mavi (Algoritmanın belirlediği ve robotun geçerken bıraktığı iz)
+* **Aktif Arama:** 🔵 Koyu Mavi (Robotun Anlık Yeri)
+* **Tarama Geçmişi:** ⚪ Açık Gri (Algoritmanın ziyaret ettiği ancak rotaya seçmediği noktalar)
 
 **Hedef Arama Süreci:** 
 
@@ -79,7 +79,7 @@ Yolların maliyeti (trafik) yoksa, hedefe en az adımda ulaşmayı hedeflerler.
 ### 🟩 Depth First Search (DFS)
 <hr>
 
-<img src="https://github.com/user-attachments/assets/7d150a51-b5c8-4520-b1ea-6f91a19877ca" width="49%" height="600" /> <img src="https://github.com/user-attachments/assets/49e273dc-b31c-4179-afa9-bd89a7f2b9e5" width="49%" height="489" />
+<img src="https://github.com/user-attachments/assets/7d150a51-b5c8-4520-b1ea-6f91a19877ca" width="49%" height="600" /> <img src="https://github.com/user-attachments/assets/49e273dc-b31c-4179-afa9-bd89a7f2b9e5" width="49%" height="450" />
 
 
 
