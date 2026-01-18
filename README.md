@@ -42,7 +42,8 @@ Yolların maliyeti (trafik) yoksa, hedefe en az adımda ulaşmayı hedeflerler.
 ---
 *Negatif maliyetlerin ve döngü kontrollerinin yapıldığı yol planlaması.*
 
-**Hedef Arama Süreci:**  
+**Hedef Arama Süreci:** 
+
 <img src="https://github.com/user-attachments/assets/ca76b2f8-04fa-47b7-8695-44d775a6b770" width="600">
 
 
@@ -58,7 +59,24 @@ Yolların maliyeti (trafik) yoksa, hedefe en az adımda ulaşmayı hedeflerler.
 <img src="https://github.com/user-attachments/assets/80bb056b-de3c-4dd0-bf25-c32d8bcecc78" width="49%" height="600" /> <img src="https://github.com/user-attachments/assets/f794d5c1-793a-4c26-b61c-f6c1e1f2ac76" width="49%" height="600" />
 
 
-### 🟩 BFS ve DFS Karşılaştırması
+### 🟩 Breadth First Search (BFS)
 *Arama stratejilerinin (katman katman vs. derinlemesine) harita üzerindeki tarama farkları.*
-<br>
-<img src="bfs_resim_linki" width="45%"> <img src="dfs_resim_linki" width="45%">
+> ### 🎨 Simülasyon Renk Anahtarı
+> * **Başlangıç & Hedef:** 🟢 Başlangıç | 🔴 Hedef
+> * **Engeller:** ⬛ Siyah Kareler (Geçilemez Alanlar)
+> * **Robotun İzleri:** 🌐 Açık Mavi (Algoritmanın belirlediği ve robotun geçtiği ana rota)
+> * **Aktif Arama:** 🔵 Koyu Mavi (Algoritmanın anlık olarak taradığı/incelediği alanlar)
+> * **Tarama Geçmişi:** ⚪ Açık Gri (Algoritmanın ziyaret ettiği ancak rotaya seçmediği noktalar)
+
+**Hedef Arama Süreci:** 
+
+<img src="https://github.com/user-attachments/assets/b165de19-7c7d-4937-9d6f-199b128a2ecc" width="600">
+
+**Rotanın Tamamlanması:**  
+
+<img src="https://github.com/user-attachments/assets/64f01eb7-b12b-4ff2-84f0-6f00ea65dc11" width="600"> 
+
+### 🟩 Depth First Search (DFS)
+
+<img src="https://github.com/user-attachments/assets/80bb056b-de3c-4dd0-bf25-c32d8bcecc78" width="49%" height="600" /> <img src="https://github.com/user-attachments/assets/f794d5c1-793a-4c26-b61c-f6c1e1f2ac76" width="49%" height="600" />
+
