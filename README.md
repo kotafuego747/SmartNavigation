@@ -4,7 +4,9 @@
 
 🛠️ Kullanılan Teknolojiler
 Python: Algoritma mantığı ve uygulama geliştirme.
+
 Numpy: Her çalıştırmada rastgele trafik yoğunluğu ve engel oluşturma (Objektif simülasyon).
+
 Matplotlib: Algoritmaların harita üzerindeki hareketlerinin görselleştirilmesi.
 
 🛣️ Algoritmalar ve Yaklaşımlar
